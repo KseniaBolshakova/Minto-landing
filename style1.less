@@ -1,0 +1,131 @@
+@violet-line-color: #a64dff;
+
+body {
+    margin: 0;
+}
+.temp-back {
+    width: 100%;
+    opacity: 0.4;
+    position: absolute;
+}
+.logo {
+    width: 100%;
+    height: 726px;
+}
+.violet-line {
+    width: 100%;
+    height: 12px;
+    background-color: @violet-line-color;
+}
+.info-block {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2124px;
+    width: 1490px;
+    .navigation {
+        width: 100%;
+        height: 192px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .nav-logo {
+            background-image: url('img/nav-logo-image.png');
+            height: 100px;
+            width: 298px;
+        }
+        .nav-bar {
+            height: 100px;
+            width: 880px;
+            
+            .nav-pills {
+                height: 100px;
+                width: 880px;
+                font-size: 30px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+    }
+    .carousel-inner {
+        height: 714px;
+        width: 100%;
+        .item {
+            height: 714px;
+            .carousel-image {
+                width: 100%;
+                height: 714px;
+            }
+        }
+    }
+    .quote {
+        width: 100%;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .quote-main {
+            margin-left: auto;
+            margin-right: auto;
+            height: 196px;
+            width: 1454px;
+            border-top: 2px solid grey;
+            border-bottom: 2px solid grey;
+            color: black;
+            text-align: center;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            line-height: 180%;
+            .quote-main-phrase {
+                color: @violet-line-color;
+            }
+        }
+    }
+    .detailed-info {
+        width: 100%;
+        height: 454px;
+        display: flex;
+        justify-content: flex-end;
+        .detailed-info-image {
+            height: 400px;
+            width: 400px;
+            background-image: url('img/detailed-info-image.png');
+            border-radius: 50%;
+        }
+        .detailed-info-block {
+            height: 444px;
+            width: 1028px;
+            background-color: yellow;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+            .detailed-info-header {
+                width: 942px;
+                height: 83px;
+                font-size: 43px;
+            }
+            .detailed-info-text {
+                width: 942px;
+                height: 304px;
+                font-size: 26px;
+                line-height: 158%;
+            }
+            .read-more-button {
+                width: 414px;
+                height: 22px;
+                display: flex;
+                justify-content: flex-end;
+                font-size: 18px;
+            }
+        }
+    }
+    .facts-about-us {
+        width: 100%;
+        height: 500px;
+    }
+}

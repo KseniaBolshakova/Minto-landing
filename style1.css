@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+}
+.temp-back {
+  width: 100%;
+  opacity: 0.4;
+  position: absolute;
+}
+.logo {
+  width: 100%;
+  height: 726px;
+}
+.violet-line {
+  width: 100%;
+  height: 12px;
+  background-color: #a64dff;
+}
+.info-block {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2124px;
+  width: 1490px;
+}
+.info-block .navigation {
+  width: 100%;
+  height: 192px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-block .navigation .nav-logo {
+  background-image: url('img/nav-logo-image.png');
+  height: 100px;
+  width: 298px;
+}
+.info-block .navigation .nav-bar {
+  height: 100px;
+  width: 880px;
+}
+.info-block .navigation .nav-bar .nav-pills {
+  height: 100px;
+  width: 880px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.info-block .carousel-inner {
+  height: 714px;
+  width: 100%;
+}
+.info-block .carousel-inner .item {
+  height: 714px;
+}
+.info-block .carousel-inner .item .carousel-image {
+  width: 100%;
+  height: 714px;
+}
+.info-block .quote {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-block .quote .quote-main {
+  margin-left: auto;
+  margin-right: auto;
+  height: 196px;
+  width: 1454px;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  line-height: 180%;
+}
+.info-block .quote .quote-main .quote-main-phrase {
+  color: #a64dff;
+}
+.info-block .detailed-info {
+  width: 100%;
+  height: 454px;
+  display: flex;
+  justify-content: flex-end;
+}
+.info-block .detailed-info .detailed-info-image {
+  height: 400px;
+  width: 400px;
+  background-image: url('img/detailed-info-image.png');
+  border-radius: 50%;
+}
+.info-block .detailed-info .detailed-info-block {
+  height: 444px;
+  width: 1028px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.info-block .detailed-info .detailed-info-block .detailed-info-header {
+  width: 942px;
+  height: 83px;
+  font-size: 43px;
+}
+.info-block .detailed-info .detailed-info-block .detailed-info-text {
+  width: 942px;
+  height: 304px;
+  font-size: 26px;
+  line-height: 158%;
+}
+.info-block .detailed-info .detailed-info-block .read-more-button {
+  width: 414px;
+  height: 22px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 18px;
+}
+.info-block .facts-about-us {
+  width: 100%;
+  height: 500px;
+}
